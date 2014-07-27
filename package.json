@@ -2,7 +2,7 @@
   "name": "julianowyongdotcom",
   "version": "0.0.0",
   "description": "This here be me personal site. Arg.",
-  "main": "index.html",
+  "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jowyong/julianowyongdotcom/issues"
   },
-  "homepage": "https://github.com/jowyong/julianowyongdotcom"
+  "homepage": "https://github.com/jowyong/julianowyongdotcom",
+  "dependencies": {
+    "express": "^4.7.1",
+    "logfmt": "^1.1.2"
+  }
 }
